@@ -1,0 +1,229 @@
+.promo-table{
+	font-size:10pt;
+	color:#606060;
+	width:100%;
+	padding:15px;
+	box-sizing: border-box;
+	margin-top: 25px;
+}
+.promo-table td{
+	color:#606060;
+	padding:10px;
+	border-bottom:solid 1px #e0e0e0;
+	vertical-align: middle;
+}
+.promo-table td:last-child{
+	max-width: 300px;
+}
+.promo-table tr:hover{
+	background:#f7f7f7;
+}
+.promo-table th{
+	box-sizing: border-box;
+	background:#f7f7f7;
+	border-right:solid 6px #f0f0f0;
+	padding:5px 10px;
+	font-weight: normal;
+}
+.promo-table th i{
+	font-size:8pt;
+	margin-left:5px;
+}
+.promo-table th:hover{
+	background:#f1f1f1;
+}
+.promo-img{
+	background-image: url(../images/2000px-Wells_Fargo_Bank.svg.png);
+	background-size: cover;
+	background-position: center;
+	height:45px;
+	width:45px;
+	border-radius: 100px;
+	margin-right:10px;
+	float: left;
+}
+.promo-titles{
+	color:#469df5;
+	font-size: 12pt;
+	
+	margin-top:3px;
+}
+.promo-titles:hover{
+	cursor: pointer;
+	color:#3080e8;
+}
+.promo-titles span{
+	color:#606060;
+	font-size: 10pt;
+}
+.maintenance-page-title{
+	display: flex;
+	border-bottom:solid 1px #e0e0e0;
+	padding:15px;
+	align-items: center;
+}
+.maintenance-page-title-title{
+	color:#808080;
+	font-size: 10pt;
+}
+.maintenance-page-status{
+	color:#808080;
+	font-size:10pt;
+	margin-left: auto;
+}
+.tenant-admin-box{
+	width:220px;
+	text-align: center;
+	overflow: auto;
+	box-sizing: border-box;
+	padding:25px;
+	border-right:solid 1px #e0e0e0;
+	border-bottom:solid 1px #e0e0e0;
+	float: left;
+}
+.tenant-admin{
+	padding-bottom:15px;
+	color:#808080;
+}
+.tenant-admin-img{
+	height:150px;
+	width:150px;
+	background-image: url(../images/129.jpg);
+	background-size: cover;
+	background-position: center center;
+	border-radius: 150px;
+	display: inline-block;
+}
+.tenant-admin-title{
+	font-size: 10pt;
+	color:#808080;
+	text-align: center;
+	margin-top:15px;
+}
+.request-details-container{
+	display: flex;
+}
+
+.request-details-box{
+	border-bottom:solid 1px #e0e0e0;
+	flex: 1;
+	box-sizing:border-box;
+	padding:25px;
+}
+.request-detail-headers{
+	display: flex;
+}
+.request-detail-header-item{
+	flex:1;
+}
+.request-detail-title{
+	font-size: 9pt;
+	color:#808080;
+	margin-bottom:5px;
+}
+.request-detail-value{
+	font-size: 12pt; 
+	color:#000;
+}
+.request-description{
+	margin-top:25px;
+	color:#808080;
+	font-size: 10pt;
+}
+.request-photos{
+	margin-top:25px;
+}
+.request-photo-item{
+	width:90px;
+	height:90px;
+	background-image: url(../images/faucet-and-sink-replacement-and-repairs-in-stoughton-mass.jpg);
+	background-size: cover;
+	background-position: center center;
+	margin-right:10px;
+	float: left;
+	transition:all .2s ease;
+}
+.request-photo-item:hover{
+	transform:scale(1.04,1.04);
+	cursor: pointer;
+	box-shadow: 1px 1px 10px rgba(0,0,0,0.2);
+	
+}
+.request-vendor-box{
+	box-sizing: border-box;
+	padding:25px;
+	overflow: auto;
+}
+.request-vendor-box h3{
+	color:#808080;
+	font-size:12pt;
+}
+.input-item{
+	margin-top:25px;
+}
+.input-title{
+	margin-bottom:5px;
+	color:#808080;
+	font-size: 8pt;
+}
+.input-item input{
+	height:30px;
+	width:200px;
+	border:solid 1px #e0e0e0;
+	text-align: left;
+	padding-left:5px;
+	font-size: 10pt;
+	line-height: 30px;
+	color:#606060;
+}
+.send-reply-box{
+	
+	border-bottom:solid 1px #e0e0e0;
+	
+}
+.send-reply-title{
+	font-size:13pt;
+	border-bottom:solid 1px #e0e0e0;
+	padding:25px;
+	padding-bottom:10px;
+}
+.send-reply-input textarea{
+	border:none;
+	width:100%;
+	height:50px;
+	padding:25px;
+	padding-top:15px;
+	font-size: 10pt;
+	transition:all .3s ease;
+	overflow: hidden;
+}
+.send-reply-input textarea:focus{
+	height:100px;
+}
+.submit-reply-button{
+	margin-top:10px;
+	margin-right:25px;
+	padding:10px 15px;
+	color:#fff;
+	background:#469df5;
+	border-radius: 3px;
+	float: right;
+	margin-bottom:200px;
+}
+.submit-reply-button:hover{
+	background:#3080e8;
+	cursor: pointer;
+}
+.request-maintenance-btn{
+	padding:10px 15px;
+	background:#469df5;
+	border-radius: 3px;
+	color:#fff;
+	float: right;
+	margin-right:15px;
+	font-size: 10pt;
+}
+.request-maintenance-btn:hover{
+	cursor: pointer;
+	background:#3080e8;
+}
